@@ -1,0 +1,62 @@
+
+body {
+    font-family: cursive, handwriting;
+    background-color: #C08261;
+    color: #381a09;
+}
+
+header {
+    background-color:#9A3B3B;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 150px;
+}
+
+.Logo1 img {
+    max-width: 250px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4c3c32;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #7e685b;
+}
+h1{
+text-align: center;
+}
+.team-member {
+    margin-bottom: 30px;
+  }
+
+  .team-member img {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  .mission h2{
+    text-align: center;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
